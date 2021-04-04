@@ -1,0 +1,77 @@
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed,    cn.mingmei.asu623517234615234813, science.xnu.substitute
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.4.1)
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
+Maintainer: Karen/„ÅÇ„Åë„Åø <karen@akemi.ai> Credit Karen!
+Filename: ./debs/com.net.angelxwind.appsyncunified_90.0_iphoneos-arm.deb
+Size: 58320 
+MD5sum: e09adfa7e4643c2d54704a8f14f7c05c
+SHA1: 5302c6f490e46e32eeb273167fe01869af12cd41
+SHA256:  f11a35c0f6937f96374ac6ca0d4a508b43bba67e5150b54cc93b6e40bb57b74a
+Homepage: https://cydia.akemi.ai/
+Provides: appsync
+Replaces: us.hackulo.appsync50
+Package: net.angelxwind.appsyncunified
+Name: AppSync Unified
+Architecture: iphoneos-arm
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Section: Tweaks
+Author: Karen/„ÅÇ„Åë„Åø, Linus Yang <karen@akemi.ai> Credit Karen!
+Version: 90.0
+Installed-Size: 732
+
+Maintainer: Riley Testut
+Filename: ./debs/com.net.angelxwind.appsyncunified_90.0_iphoneos-arm.deb
+Size: 597622 
+MD5sum: 83660c2d5119ac6ecce72236b27cfae4
+SHA1: 3c7ce20ff72c17f17a1415b14534a9be3fc41ca1
+SHA256: 1f5b35f4c402f6abab69e1833b260a4dfac156bbe1f9807b7aec4cd22665cc95
+Package: com.rileytestut.altdaemon
+Name: AltDaemon
+Architecture: iphoneos-arm
+Description: AltDaemon allows AltStore to install and refresh apps without a   computer.
+Section: System 
+Depends: 
+Author: Author: Riley Testut
+Version: 1.0
+Homepage: https://altstore.io
+
+Package: com.baraba.altstore
+Filename: ./debs/com.net.angelxwind.appsyncunified_90.0_iphoneos-arm.deb
+Size: 4735638  
+MD5sum: ffdae58db56e19ca0eb97e4b6c9a836f
+SHA1: c5b580e94e36d81c2907c5ba5762147964fd84d8
+SHA256:  d734989f87cabfd55330730e32b9ef84932ffa56143939834c8d94478a2ada2f
+Name: AltStore FREE
+Depends: firmware (>= 12.2), com.rileytestut.altdaemon, com.linusyang.appinst, net.angelxwind.appsyncunified
+Replaces: com.baraba.altstore
+Architecture: iphoneos-arm
+Description: AltStore is an alternative app store
+Depiction: https://apt-baraba.com/baraba/index.html
+Maintainer: @baraba Credit Baraba! 
+Author: @baraba Credit Baraba! 
+Section: Utilities
+Version: 1.4.5
+Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
+Icon: file:///Applications/AltStore.app/AppIcon60x60@2x.png
+
+Package: com.linusyang.appinst
+Filename: ./debs/
+Size: 75230 
+MD5sum: e258a154027a599d41010f9415575573
+SHA1: e2f6bfb95b5475691c01a3ce521157888678a89c
+SHA256:  7b9d79ad9b315daf2ad9bc07b6c1ee55b5951008ebcd54391e7c1f7a4262ab94
+Name: appinst (App Installer)
+Priority: standard
+Pre-Depends: firmware (>= 5.0)
+Depends: net.angelxwind.appsyncunified (>= 5.1)
+Architecture: iphoneos-arm
+Description: Install IPAs from the command line
+Maintainer: Karen/„ÅÇ„Åë„Åø <karen@akemi.ai> Credit Karen!
+Author: Karen/„ÅÇ„Åë„Åø, Linus Yang <karen@akemi.ai> Credit Karen! 
+Section: Utilities
+Homepage: https://github.com/angelXwind/AppSync
+Tag: role::enduser, purpose::console
+Conflicts: com.sull.appinstaller
+Depiction: https://cydia.akemi.ai/?page/com.linusyang.appinst
+Version: 1.1.4
+Installed-Size: 392

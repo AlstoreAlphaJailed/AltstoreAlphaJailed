@@ -1,0 +1,8 @@
+Origin: AppSigners Repo
+Label: AppSigners Repo
+Suite: stable
+Version: 1.0
+Codename: cydia-ios
+Architectures: iphoneos-arm
+Components: main
+Description: A Repo that includes many apps to sign your Jailbroken iOS applications! Features Altstore Alpha Jailed and Reprovision Reborn and many other signing iOS apps! 
