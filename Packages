@@ -2,11 +2,11 @@ Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.ap
 Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.4.1)
 Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
 Maintainer: Karen/„ÅÇ„Åë„Åø <karen@akemi.ai> Credit Karen!
-Filename: ./debs/com.net.angelxwind.appsyncunified_iphoneos-arm.deb
+Filename: ./debs/com.net.angelxwind.appsyncunified_90.0_iphoneos-arm.deb
 Size: 58320 
 MD5sum: e09adfa7e4643c2d54704a8f14f7c05c
 SHA1: 5302c6f490e46e32eeb273167fe01869af12cd41
-SHA256:  f11a35c0f6937f96374ac6ca0d4a508b43bba67e5150b54cc93b6e40bb57b74a
+SHA256: f11a35c0f6937f96374ac6ca0d4a508b43bba67e5150b54cc93b6e40bb57b74a
 Homepage: https://cydia.akemi.ai/
 Provides: appsync
 Replaces: us.hackulo.appsync50
