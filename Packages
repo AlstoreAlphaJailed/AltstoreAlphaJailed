@@ -20,7 +20,7 @@ Version: 90.0
 Installed-Size: 732
 
 Maintainer: Riley Testut
-Filename: ./debs/com.net.angelxwind.appsyncunified_90.0_iphoneos-arm.deb
+Filename: ./debs/net.angelxwind.appsyncunified_90.0_iphoneos-arm.deb
 Size: 597622 
 MD5sum: 83660c2d5119ac6ecce72236b27cfae4
 SHA1: 3c7ce20ff72c17f17a1415b14534a9be3fc41ca1
@@ -36,7 +36,7 @@ Version: 1.0
 Homepage: https://altstore.io
 
 Package: com.baraba.altstore
-Filename: ./debs/com.net.angelxwind.appsyncunified_90.0_iphoneos-arm.deb
+Filename: ./debs/net.angelxwind.appsyncunified_90.0_iphoneos-arm.deb
 Size: 4735638  
 MD5sum: ffdae58db56e19ca0eb97e4b6c9a836f
 SHA1: c5b580e94e36d81c2907c5ba5762147964fd84d8
@@ -55,7 +55,7 @@ Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
 Icon: file:///Applications/AltStore.app/AppIcon60x60@2x.png
 
 Package: com.linusyang.appinst
-Filename: ./debs/
+Filename: ./debs/com.linusyang.appinst_1.1.4_iphoneos-arm.deb
 Size: 75230 
 MD5sum: e258a154027a599d41010f9415575573
 SHA1: e2f6bfb95b5475691c01a3ce521157888678a89c
