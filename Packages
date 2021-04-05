@@ -20,7 +20,7 @@ Version: 90.0
 Installed-Size: 732
 
 Maintainer: Riley Testut
-Filename: ./debs/net.angelxwind.appsyncunified_90.0_iphoneos-arm.deb
+Filename: ./debs/com.rileytestut.altdaemon_1.0_iphoneos-arm.deb
 Size: 597622 
 MD5sum: 83660c2d5119ac6ecce72236b27cfae4
 SHA1: 3c7ce20ff72c17f17a1415b14534a9be3fc41ca1
@@ -36,7 +36,7 @@ Version: 1.0
 Homepage: https://altstore.io
 
 Package: com.baraba.altstore
-Filename: ./debs/net.angelxwind.appsyncunified_90.0_iphoneos-arm.deb
+Filename: ./debs/com.baraba.altstore_1.4.5_iphoneos-arm.deb
 Size: 4735638  
 MD5sum: ffdae58db56e19ca0eb97e4b6c9a836f
 SHA1: c5b580e94e36d81c2907c5ba5762147964fd84d8
