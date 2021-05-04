@@ -1,8 +1,386 @@
-<center>
-   <title>Welcome To AppSigners Repo!</title>
-   <h1>Enjoy Signed iOS Applications to your iOS devices! </h1>
-   <h2>Love Altstore Alpha on your Jailbroken iOS devices? Then you should use this repo! Give credit for owners of each tweak on this repo and not us! Tell us what's next!</h2> 
-   <h3>Warning this link might not work without the Cydia Package Manager!</h3>
-   <li>Add to Cydia Package Manager! Supports these iOS versions: 13/14 <a class="btn btn-sm btn-default" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://alstorealphajailed.github.io/AltstoreAlphaJailed/">Cydia</a></li>
-</center>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to AltStoreAlphaJailed</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148877193-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-148877193-1');
+    </script>
+  </head>
+
+  <style>
+    html {
+      height: 100%;
+    }
+    .center {
+      margin: auto;
+      text-align: center;
+    }
+
+    .navbar {
+      margin: 0 20px;
+      margin-top: 20px;
+      margin-bottom: -30px;
+      text-align: right;
+
+      font-size: 110%;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      font-weight: normal;
+      letter-spacing: 0px;
+    }
+
+    .navbar, .a {
+      padding: 0 8px;
+    }
+
+    .header {
+      width: 90%;
+      max-width: 960px;
+      padding-top: 40px;
+      /* border: 3px solid #73AD21; */
+    }
+
+    .spacer {
+      text-align: justify;
+      -ms-text-justify: distribute-all-lines;
+      text-justify: distribute-all-lines;
+    }
+
+    .box {
+      vertical-align: top;
+      display: inline-block;
+      *display: inline;
+      zoom: 1
+    }
+
+    .stretch {
+      width: 100%;
+      display: inline-block;
+      font-size: 0;
+      line-height: 0
+    }
+
+    .instructions {
+      width: calc(100% - 20px);
+      /* border: 3px solid #73AD21; */
+    }
+
+    .step {
+      vertical-align: top;
+      width: 33.3%;
+      padding: 0 2%;
+      float: left;
+      box-sizing: border-box;
+    }
+
+    .stepcontent {
+      width: 300px;
+      display: inline-block;
+    }
+
+    .step1 {
+      text-align: left;
+    }
+
+    .step2 {
+      text-align: center;
+    }
+
+    .step3 {
+      text-align: right;
+    }
+
+    .stepimg {
+      width: 100%;
+    }
+
+    .footer {
+      width: 95%;
+      max-width: 630px;
+      text-align: center;
+      margin-bottom: 12px;
+      /* border: 3px solid #73AD21; */
+    }
+
+    .footer-item {
+      vertical-align: top;
+      width: 50%;
+      float: left;
+      box-sizing: border-box;
+      padding: 0 8px;
+      padding-bottom: 8px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      width: 100%;
+      margin: 0 auto;
+      max-width: 1440px;
+    }
+
+    .step-item {
+      width: 100%;
+      text-align: left;
+      display: inline-block;
+      box-sizing: border-box;
+    }
+
+    .caption {
+      width: 100%;
+      display: inline-block;
+      text-align: left;
+    }
+
+    .caption-container {
+      line-height: 1.3; 
+    }
+
+    .step-item .number-container, .step-item .caption-container {
+      display: inline-block;
+      vertical-align: middle;
+      box-sizing: border-box;
+    }
+
+    .step-item .number-container {
+      text-align: center;
+      width: 40px;
+		}
+
+		.step-item .caption-container {
+      text-align: left;
+      width: calc(95% - 40px);
+		}
+
+    .disclaimer {
+      padding-bottom: 10px;
+    }
+
+    img, video {
+      border-radius: 15px;
+    }
+
+    body {
+      background-color: rgba(0,0,139);
+      background-image: linear-gradient(rgba(59, 191, 141,), rgba(0, 111, 121, 1));
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 110%;
+      height:100%;
+      margin: 0;
+    }
+
+
+
+    h1 {
+      margin: 0 auto;
+
+      font-size: 400%;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      font-weight: 200;
+
+      color: rgb(255, 253, 249);
+
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 300%;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      font-weight: bolder;
+
+      color: #ffffff;
+      opacity: 0.5;
+
+      vertical-align: middle;
+
+      text-align: center;
+      display: inline-block;
+
+      margin: 0;
+      padding: 0;
+    }
+
+    h3 {
+      font-size: 105%;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      font-weight: 500;
+
+      color: rgb(255, 253, 249);
+
+      vertical-align: left;
+
+      text-align: left;
+
+      display: inline-block;
+
+      margin: 0;
+    }
+
+    h4 {
+      font-size: 150%;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      font-weight: normal;
+      letter-spacing: 0px;
+      color: rgba(255, 253, 249, 0.5);
+      padding-left: 20px;
+      padding-right: 20px;
+
+      line-height: 1.2em;
+      margin: 8px auto;
+
+      text-align: center;
+    }
+
+    h6 {
+      font-size: 14px;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      font-weight: normal;
+      color: rgba(255, 253, 249, 0.3);
+      margin: 8px auto;
+
+      text-align: center;
+    }
+
+    button {      
+      border: none;
+      
+      border-radius: 181px;
+      background-color: rgba(255, 253, 249, 0.15);
+      width: 200%;
+      height: 60px;
+
+      font-size: 24px;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      font-weight: normal;
+      color: #ffffff;
+
+      line-height: 60px;
+
+      text-align: center;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .navbar {
+      color: rgba(255, 253, 249, 0.5) !important;
+      opacity: 0.5;
+    }
+
+    @media only screen and (max-width: 768px) {
+      /* For mobile phones: */
+      .step {
+        width: 100%;
+        text-align: center;
+      }
+
+      .container {
+        width: 95%;
+      }
+
+     .step-item {
+        width: 100%;
+        max-width: 500px;
+        margin-bottom: 50px;
+      }
+
+      h1 {
+        font-size: 300%;
+      }
+
+      h4 {
+        font-size: 125%;
+      }
+
+      .header {
+        padding: 10% 0;
+      }
+
+      .footer-item {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+      }
+
+      .disclaimer {
+        padding-bottom: 10px;
+      }
+      
+    }
+
+
+  </style>
+
+  <body>
+
+      <div class="container">  
+        
+          <div class="navbar">
+          	  <a style="padding-left: 10px;" href="">Add AltStore Alpha Repo</a>            </div>
+          
+          <div class="center header">
+              <h1>Welcome to <b>AltStoreAlpha Repo!</b></h1>
+              <h4>A AltStore Repo for jailbroken devices only! Fan based version of Altstore!<br/>Requires A Jailbroken iOS device!</h4>
+          </div> 
+
+          <div class="center instructions">
+
+              <div class="step step1">
+                  <div class="step>
+                      <img class="stepimg" src="install-altstore.png">
+                      <div class="number-container"><h2>1</h2></div>
+                      <div class="caption-container"><h3>Add AltStore Alpha Repo to your iPhone, iPad, iPod, then install AltStore Tweaks from the repo on your jailbroken iOS devices.
+                    </h3></div>
+                  </div>
+              </div>
+
+              <div class="step step2">
+                  <div class="step>
+                      <video width=100% autoplay loop muted playsinline>
+                          <source src="launch-altstore.mp4" type="video/mp4" poster="launch-altstore.png">
+                                               </video>
+                      <div class="number-container"><h2>2</h2></div>
+                      <div class="caption-container"><h3>Launch Cydia and add this Repo to install Altstore Alpha!</h3></div>
+                  </div>
+              </div>
+
+              <div class="step step3">
+                <div class="step>
+                    <img class="stepimg" src="keep-altserver-running.png">
+                    <div class="number-container"><h2>3</h2></div>
+                    <div class="caption-container"><h3>Sign Apps without any pcs or computers nearby! All with Prebuilt Altdeamon injected into Altstore already! Called AltStore Alpha!</h3></div>
+                </div>
+              </div>
+          </div>
+
+          <div class="center footer" style="width:100%">
+            <h4 style="padding-bottom: 12px;">Enjoy this No Pc Method! This Altstore Cydia Repo works on iOS 13/14!</h3>
+            
+            <div class="center">
+                <div class="footer-item">
+                    <button type="button">
+                        <a href="https://alstorealphajailed.github.io/AltstoreAlphaJailed">Add Altstore Alpha Jailed To Cydia!</a>
+                    </button>
+                    </button>
+                    <h6></h6>
+                </div>
+              </div>
+          </div>   
+          <h6 class="disclaimer"> Warning this Repo And Site Were To Represent AltStore For Jailbroken iOS Devices!
+          We do not work or a part of the Real Altstore.io! Keep that in mind! If the Real Altstore company wants our Site to be taken down we will take it down!</h6>
+     </div>
+  </body>
+</html>
